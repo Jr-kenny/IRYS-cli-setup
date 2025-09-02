@@ -68,4 +68,37 @@ open the folder
 click on home 
 then the name of your folder like mine is jrkenny 
 then paste 
-https://github.com/Jr-kenny/IRYS-cli-setup/blob/main/Screenshot%202025-09-02%20031154.png
+also rename the file to what you can easily type out ( eg. car,calculator etc )
+<img width="1284" height="920" alt="image" src="https://github.com/user-attachments/assets/ce75aa9e-b37a-4a3b-a98f-1a6909981456" />
+
+## Now paste
+```bash
+irys upload FILE_NAME \
+  -n devnet \
+  -t ethereum \
+  -w PRIVATE_KEY \
+  --tags FILE_NAME FILE_FORMAT \
+  --provider-url https://testnet-rpc.irys.xyz/v1/execution-rpc
+```
+change FILE_NAME to the actual name of the file. like for example if its a screenshot of a calculator and you renamed it calculator initially its saved as calculator.png on your pc so thats what youre copying ( calculator.png) 
+ 
+change PRIVATE_KEY to your private key (without 0x) - Remember to use a burner wallet
+
+change FILE_NAME and FILE_FORMAT (JPG,MP4,MKV). now that calculator you wrote as calculator.png now write it as calculator on the FILE_NAME and now write PNG on the FILE _FORMAT
+
+change RPC_URL to your RPC
+
+use this setup below as refrence
+
+irys upload calculator.png \
+  -n devnet \
+  -t ethereum \
+  -w PRIVATE KEY \
+  --tags calculator PNG \
+  --provider-url https://testnet-rpc.irys.xyz/v1/execution-rpc
+
+should see something like this 
+<img width="1198" height="159" alt="image" src="https://github.com/user-attachments/assets/581e31cb-5460-46ff-a815-9b36c7864157" />
+
+  ## DONE
+  Made with ❤️ by [Jrkenny](https://x.com/Jrken_ny)
