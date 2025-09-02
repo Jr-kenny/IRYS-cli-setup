@@ -61,3 +61,11 @@ irys balance WALLET_ADDRESS \
 Replace WALLET_ADDRESS with your actual address
 
 ## Upload a File
+open your file explorer on your pc 
+copy any image or file of your choice 
+visit ubuntu ( Linux)
+open the folder 
+click on home 
+then the name of your folder like mine is jrkenny 
+then paste 
+https://github.com/Jr-kenny/IRYS-cli-setup/blob/main/Screenshot%202025-09-02%20031154.png
