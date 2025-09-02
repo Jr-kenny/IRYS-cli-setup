@@ -10,14 +10,14 @@ ETH Sepolia testnet RPC ([chainlist](https://chainlist.org/))
 ETH Sepolia faucet (get free tokens from [Alchemy](https://www.alchemy.com/faucets/ethereum-sepolia) Faucet)
 
 # STEP 1. Installations:
-install dependencies
+## install dependencies
 ```bash
 sudo apt-get update && sudo apt-get upgrade -y
 ```
 ```bash
 sudo apt install curl iptables build-essential git wget lz4 jq make protobuf-compiler cmake gcc nano automake autoconf tmux htop nvme-cli libgbm1 pkg-config libssl-dev libleveldb-dev tar clang bsdmainutils ncdu unzip libleveldb-dev screen ufw -y
 ```
-Install nodejs & npm :
+## Install nodejs & npm :
 ```bash
 curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash - && sudo apt install -y nodejs
 ```
@@ -25,7 +25,7 @@ for mac
 
       brew install node
 
-Check version :
+## Check version :
 ```bash
 node -v
 npm -v
@@ -58,3 +58,6 @@ irys balance WALLET_ADDRESS \
   -n devnet \
   --provider-url https://testnet-rpc.irys.xyz/v1/execution-rpc
 ```
+Replace WALLET_ADDRESS with your actual address
+
+## Upload a File
